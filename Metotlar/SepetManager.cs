@@ -9,7 +9,12 @@ namespace Metotlar
         //naming convention 
         public void Ekle(Urun urun)
         {
-            Console.WriteLine("Sepete eklendi");
+            Console.WriteLine(urun.Adi + " sepete eklendi.");
+        }
+
+        public void Ekle2()
+        {
+
         }
     }
 }
